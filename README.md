@@ -1,3 +1,9 @@
+
+===========================
+
+-Shows spotify album and cover for current song 
+
+
 Spotify Easy Authentication
 ===========================
 An example authorization code flow for authenticating with Spotify.
