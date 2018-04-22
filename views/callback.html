@@ -1,0 +1,30 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Success! | Spotify Easy Authentication</title>
+        <meta name="description" content="A cool thing made with Glitch">
+        <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch" ></script>
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+        <script src="/client.js"></script>
+        <script src="/spotlive.js"></script>
+        <div class="container">
+            <div class="login-container hidden" id="js-login-container">
+                <button class="btn btn--login" id="js-btn-login">Login with Spotify</button>
+            </div>
+            <div class="main-container hidden" id="js-main-container">
+            </div>
+        </div>
+        <div id="info" class="info"> </div>
+    </body>
+</html>
