@@ -1,6 +1,8 @@
 # simpleSpotify
 ===========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chintan9/simpleSpotify.svg)](https://greenkeeper.io/)
+
 -Shows spotify album and cover for current song 
 
 
