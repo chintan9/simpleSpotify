@@ -1,7 +1,9 @@
 # simpleSpotify
 ===========================
 
--Shows spotify album and cover for current song 
+- Shows spotify album and cover for current song 
+
+- demo https://dune-botany.glitch.me/ (require spotify premium)
 
 
 Spotify Easy Authentication
